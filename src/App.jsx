@@ -7,6 +7,8 @@ import UserGreeting from './pages/UserGreeting'
 import GuestGreeting from './pages/GuestGreeting'
 import List from './pages/List'
 import LiftingStateUp from './pages/LiftingStateUp'
+import GenarateBox from './pages/GenarateBox'
+// import css
 function App() {
   const [count, setCount] = useState(0)
   const [show, setShow] = useState(false)
@@ -29,6 +31,8 @@ function App() {
       <List/>
       <h3>Lifting State Up</h3>
       <LiftingStateUp/>
+      <h3>GenarateBox</h3>
+      <GenarateBox/>
     </>
   )
 }
